@@ -27,34 +27,6 @@ changes, and generate security-focused reports.
 - Impact analysis
 - Evidence-backed reporting
 
-## Project Structure
-
-DEATH-13A/
-│
-├── core/
-│   ├── analyzer.py
-│   ├── change_analyzer.py
-│   ├── change_detector.py
-│   ├── change_report.py
-│   ├── evidence.py
-│   ├── fingerprint.py
-│   ├── impact_analyzer.py
-│   ├── storage.py
-│   └── validator.py
-│
-├── recon/
-│   ├── dns.py
-│   ├── http.py
-│   ├── robots.py
-│   ├── security_headers.py
-│   ├── sitemap.py
-│   ├── tls.py
-│   └── whois.py
-│
-├── report/
-├── snapshots/
-├── main.py
-└── .gitignore
 
 ## Installation
 
